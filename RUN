@@ -1,12 +1,10 @@
 
-
 -- Instances: 115 | Scripts: 30 | Modules: 0 | Tags: 0
 local G2L = {};
 
 -- Workspace.Folder.supor
 G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
 G2L["1"]["Name"] = [[supor]];
-G2L["1"]["ResetOnSpawn"] = false;
 
 
 -- Workspace.Folder.supor.al
@@ -217,7 +215,6 @@ G2L["1f"] = Instance.new("ScrollingFrame", G2L["1a"]);
 G2L["1f"]["Active"] = true;
 G2L["1f"]["BorderSizePixel"] = 0;
 G2L["1f"]["CanvasSize"] = UDim2.new(0, 0, 3, 0);
-G2L["1f"]["CanvasPosition"] = Vector2.new(0, 331.71796);
 G2L["1f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["1f"]["Name"] = [[f]];
 G2L["1f"]["Size"] = UDim2.new(1, 0, 1, 0);
