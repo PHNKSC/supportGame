@@ -1,0 +1,1190 @@
+
+-- Instances: 104 | Scripts: 27 | Modules: 0 | Tags: 0
+local G2L = {};
+
+-- StarterGui.supor
+G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+G2L["1"]["Enabled"] = false;
+G2L["1"]["Name"] = [[supor]];
+G2L["1"]["ResetOnSpawn"] = false;
+
+
+-- StarterGui.supor.al
+G2L["2"] = Instance.new("Frame", G2L["1"]);
+G2L["2"]["BorderSizePixel"] = 0;
+G2L["2"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2"]["Size"] = UDim2.new(0.3257, 0, 0.41176, 0);
+G2L["2"]["Position"] = UDim2.new(0.33715, 0, 0, 0);
+G2L["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2"]["Name"] = [[al]];
+G2L["2"]["BackgroundTransparency"] = 0.65;
+
+
+-- StarterGui.supor.al.UICorner
+G2L["3"] = Instance.new("UICorner", G2L["2"]);
+
+
+
+-- StarterGui.supor.al.UIStroke
+G2L["4"] = Instance.new("UIStroke", G2L["2"]);
+G2L["4"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+-- StarterGui.supor.al.UIStroke.UIGradient
+G2L["5"] = Instance.new("UIGradient", G2L["4"]);
+G2L["5"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.270, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.474, Color3.fromRGB(0, 255, 226)),ColorSequenceKeypoint.new(0.671, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
+
+
+-- StarterGui.supor.al.UIStroke.UIGradient.LocalScript
+G2L["6"] = Instance.new("LocalScript", G2L["5"]);
+
+
+
+-- StarterGui.supor.al.tgt
+G2L["7"] = Instance.new("Frame", G2L["2"]);
+G2L["7"]["BorderSizePixel"] = 0;
+G2L["7"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7"]["Size"] = UDim2.new(0.09873, 0, 0.15237, 0);
+G2L["7"]["Position"] = UDim2.new(0.44796, 0, 1.05639, 0);
+G2L["7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7"]["Name"] = [[tgt]];
+G2L["7"]["BackgroundTransparency"] = 0.65;
+
+
+-- StarterGui.supor.al.tgt.UICorner
+G2L["8"] = Instance.new("UICorner", G2L["7"]);
+
+
+
+-- StarterGui.supor.al.tgt.UIStroke
+G2L["9"] = Instance.new("UIStroke", G2L["7"]);
+G2L["9"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+-- StarterGui.supor.al.tgt.UIStroke.UIGradient
+G2L["a"] = Instance.new("UIGradient", G2L["9"]);
+G2L["a"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.535, Color3.fromRGB(0, 255, 226)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
+
+
+-- StarterGui.supor.al.tgt.UIStroke.UIGradient.LocalScript
+G2L["b"] = Instance.new("LocalScript", G2L["a"]);
+
+
+
+-- StarterGui.supor.al.tgt.UIAspectRatioConstraint
+G2L["c"] = Instance.new("UIAspectRatioConstraint", G2L["7"]);
+
+
+
+-- StarterGui.supor.al.tgt.TextButton
+G2L["d"] = Instance.new("TextButton", G2L["7"]);
+G2L["d"]["TextWrapped"] = true;
+G2L["d"]["BorderSizePixel"] = 0;
+G2L["d"]["TextSize"] = 14;
+G2L["d"]["TextColor3"] = Color3.fromRGB(2, 252, 255);
+G2L["d"]["TextScaled"] = true;
+G2L["d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d"]["FontFace"] = Font.new([[rbxasset://fonts/families/Jura.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["d"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["d"]["BackgroundTransparency"] = 1;
+G2L["d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d"]["Text"] = [[△]];
+G2L["d"]["Rotation"] = -180;
+
+
+-- StarterGui.supor.al.tgt.TextButton.UIPadding
+G2L["e"] = Instance.new("UIPadding", G2L["d"]);
+G2L["e"]["PaddingTop"] = UDim.new(0, 5);
+G2L["e"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- StarterGui.supor.al.tgt.TextButton.LocalScript
+G2L["f"] = Instance.new("LocalScript", G2L["d"]);
+
+
+
+-- StarterGui.supor.al.tgt.TextButton.UIStroke
+G2L["10"] = Instance.new("UIStroke", G2L["d"]);
+G2L["10"]["Thickness"] = 4;
+G2L["10"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+-- StarterGui.supor.al.tgt.TextButton.UIStroke.UIGradient
+G2L["11"] = Instance.new("UIGradient", G2L["10"]);
+G2L["11"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.375, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.535, Color3.fromRGB(0, 255, 226)),ColorSequenceKeypoint.new(0.692, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
+
+
+-- StarterGui.supor.al.tgt.TextButton.UIStroke.UIGradient.LocalScript
+G2L["12"] = Instance.new("LocalScript", G2L["11"]);
+
+
+
+-- StarterGui.supor.al.al
+G2L["13"] = Instance.new("Frame", G2L["2"]);
+G2L["13"]["BorderSizePixel"] = 0;
+G2L["13"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["13"]["Size"] = UDim2.new(0.95869, 0, 0.17539, 0);
+G2L["13"]["Position"] = UDim2.new(0.02065, 0, 0.02288, 0);
+G2L["13"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["13"]["Name"] = [[al]];
+G2L["13"]["BackgroundTransparency"] = 0.65;
+
+
+-- StarterGui.supor.al.al.UICorner
+G2L["14"] = Instance.new("UICorner", G2L["13"]);
+
+
+
+-- StarterGui.supor.al.al.UIStroke
+G2L["15"] = Instance.new("UIStroke", G2L["13"]);
+G2L["15"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+-- StarterGui.supor.al.al.UIStroke.UIGradient
+G2L["16"] = Instance.new("UIGradient", G2L["15"]);
+G2L["16"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.270, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.474, Color3.fromRGB(0, 255, 226)),ColorSequenceKeypoint.new(0.671, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
+
+
+-- StarterGui.supor.al.al.UIStroke.UIGradient.LocalScript
+G2L["17"] = Instance.new("LocalScript", G2L["16"]);
+
+
+
+-- StarterGui.supor.al.al.TextLabel
+G2L["18"] = Instance.new("TextLabel", G2L["13"]);
+G2L["18"]["TextWrapped"] = true;
+G2L["18"]["BorderSizePixel"] = 0;
+G2L["18"]["TextScaled"] = true;
+G2L["18"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["18"]["TextSize"] = 14;
+G2L["18"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["18"]["TextColor3"] = Color3.fromRGB(80, 238, 255);
+G2L["18"]["BackgroundTransparency"] = 1;
+G2L["18"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["18"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["18"]["Text"] = [[MENU]];
+
+
+-- StarterGui.supor.al.al.TextLabel
+G2L["19"] = Instance.new("TextLabel", G2L["13"]);
+G2L["19"]["TextWrapped"] = true;
+G2L["19"]["BorderSizePixel"] = 0;
+G2L["19"]["TextScaled"] = true;
+G2L["19"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["19"]["TextSize"] = 14;
+G2L["19"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["19"]["TextColor3"] = Color3.fromRGB(80, 238, 255);
+G2L["19"]["BackgroundTransparency"] = 1;
+G2L["19"]["Size"] = UDim2.new(1, 0, 0.41124, 0);
+G2L["19"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["19"]["Text"] = [[Don't Reset Character GUI will Remove You Gonna Executue Again.😂]];
+G2L["19"]["Position"] = UDim2.new(0, 0, 5.14621, 0);
+
+
+-- StarterGui.supor.al.tab
+G2L["1a"] = Instance.new("Frame", G2L["2"]);
+G2L["1a"]["BorderSizePixel"] = 0;
+G2L["1a"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1a"]["Size"] = UDim2.new(0.95869, 0, 0.63433, 0);
+G2L["1a"]["Position"] = UDim2.new(0.02065, 0, 0.2294, 0);
+G2L["1a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1a"]["Name"] = [[tab]];
+G2L["1a"]["BackgroundTransparency"] = 0.65;
+
+
+-- StarterGui.supor.al.tab.UICorner
+G2L["1b"] = Instance.new("UICorner", G2L["1a"]);
+
+
+
+-- StarterGui.supor.al.tab.UIStroke
+G2L["1c"] = Instance.new("UIStroke", G2L["1a"]);
+G2L["1c"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+-- StarterGui.supor.al.tab.UIStroke.UIGradient
+G2L["1d"] = Instance.new("UIGradient", G2L["1c"]);
+G2L["1d"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.270, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.474, Color3.fromRGB(0, 255, 226)),ColorSequenceKeypoint.new(0.671, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
+
+
+-- StarterGui.supor.al.tab.UIStroke.UIGradient.LocalScript
+G2L["1e"] = Instance.new("LocalScript", G2L["1d"]);
+
+
+
+-- StarterGui.supor.al.tab.f
+G2L["1f"] = Instance.new("ScrollingFrame", G2L["1a"]);
+G2L["1f"]["Active"] = true;
+G2L["1f"]["BorderSizePixel"] = 0;
+G2L["1f"]["CanvasPosition"] = Vector2.new(0, 150);
+G2L["1f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1f"]["Name"] = [[f]];
+G2L["1f"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["1f"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1f"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.supor.al.tab.f.Frame
+G2L["20"] = Instance.new("Frame", G2L["1f"]);
+G2L["20"]["BorderSizePixel"] = 0;
+G2L["20"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["20"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["20"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["20"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.supor.al.tab.f.Frame.UIPadding
+G2L["21"] = Instance.new("UIPadding", G2L["20"]);
+G2L["21"]["PaddingTop"] = UDim.new(0, 10);
+G2L["21"]["PaddingBottom"] = UDim.new(0, 10);
+
+
+-- StarterGui.supor.al.tab.f.Frame.UIGridLayout
+G2L["22"] = Instance.new("UIGridLayout", G2L["20"]);
+G2L["22"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- StarterGui.supor.al.tab.f.Frame.speed
+G2L["23"] = Instance.new("Frame", G2L["20"]);
+G2L["23"]["BorderSizePixel"] = 0;
+G2L["23"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["23"]["Size"] = UDim2.new(0.15859, 0, 0.16585, 0);
+G2L["23"]["Position"] = UDim2.new(-0.00088, 0, 0, 0);
+G2L["23"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["23"]["Name"] = [[speed]];
+G2L["23"]["BackgroundTransparency"] = 0.65;
+
+
+-- StarterGui.supor.al.tab.f.Frame.speed.UIStroke
+G2L["24"] = Instance.new("UIStroke", G2L["23"]);
+G2L["24"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+-- StarterGui.supor.al.tab.f.Frame.speed.UIStroke.UIGradient
+G2L["25"] = Instance.new("UIGradient", G2L["24"]);
+G2L["25"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.270, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.474, Color3.fromRGB(0, 255, 226)),ColorSequenceKeypoint.new(0.671, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
+
+
+-- StarterGui.supor.al.tab.f.Frame.speed.UIStroke.UIGradient.LocalScript
+G2L["26"] = Instance.new("LocalScript", G2L["25"]);
+
+
+
+-- StarterGui.supor.al.tab.f.Frame.speed.TextButton
+G2L["27"] = Instance.new("TextButton", G2L["23"]);
+G2L["27"]["TextWrapped"] = true;
+G2L["27"]["BorderSizePixel"] = 0;
+G2L["27"]["TextSize"] = 14;
+G2L["27"]["TextColor3"] = Color3.fromRGB(0, 255, 255);
+G2L["27"]["TextScaled"] = true;
+G2L["27"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["27"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["27"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["27"]["BackgroundTransparency"] = 0.85;
+G2L["27"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["27"]["Text"] = [[SPEED : 1]];
+
+
+-- StarterGui.supor.al.tab.f.Frame.speed.TextButton.UIPadding
+G2L["28"] = Instance.new("UIPadding", G2L["27"]);
+G2L["28"]["PaddingTop"] = UDim.new(0, 30);
+G2L["28"]["PaddingBottom"] = UDim.new(0, 30);
+
+
+-- StarterGui.supor.al.tab.f.Frame.speed.TextButton.UICorner
+G2L["29"] = Instance.new("UICorner", G2L["27"]);
+
+
+
+-- StarterGui.supor.al.tab.f.Frame.speed.TextButton.ButtonStateScript
+G2L["2a"] = Instance.new("LocalScript", G2L["27"]);
+G2L["2a"]["Name"] = [[ButtonStateScript]];
+
+
+-- StarterGui.supor.al.tab.f.Frame.speed.UICorner
+G2L["2b"] = Instance.new("UICorner", G2L["23"]);
+
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc
+G2L["2c"] = Instance.new("Frame", G2L["20"]);
+G2L["2c"]["BorderSizePixel"] = 0;
+G2L["2c"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2c"]["Size"] = UDim2.new(0.15859, 0, 0.16585, 0);
+G2L["2c"]["Position"] = UDim2.new(-0.00088, 0, 0, 0);
+G2L["2c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2c"]["Name"] = [[fnc]];
+G2L["2c"]["BackgroundTransparency"] = 0.65;
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.UIStroke
+G2L["2d"] = Instance.new("UIStroke", G2L["2c"]);
+G2L["2d"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.UIStroke.UIGradient
+G2L["2e"] = Instance.new("UIGradient", G2L["2d"]);
+G2L["2e"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.270, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.474, Color3.fromRGB(0, 255, 226)),ColorSequenceKeypoint.new(0.671, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.UIStroke.UIGradient.LocalScript
+G2L["2f"] = Instance.new("LocalScript", G2L["2e"]);
+
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton
+G2L["30"] = Instance.new("TextButton", G2L["2c"]);
+G2L["30"]["TextWrapped"] = true;
+G2L["30"]["BorderSizePixel"] = 0;
+G2L["30"]["TextSize"] = 14;
+G2L["30"]["TextColor3"] = Color3.fromRGB(0, 255, 255);
+G2L["30"]["TextScaled"] = true;
+G2L["30"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["30"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["30"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["30"]["BackgroundTransparency"] = 0.85;
+G2L["30"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["30"]["Text"] = [[1]];
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.UIPadding
+G2L["31"] = Instance.new("UIPadding", G2L["30"]);
+G2L["31"]["PaddingTop"] = UDim.new(0, 30);
+G2L["31"]["PaddingBottom"] = UDim.new(0, 30);
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.ToggleAnimationOnClick
+G2L["32"] = Instance.new("LocalScript", G2L["30"]);
+G2L["32"]["Name"] = [[ToggleAnimationOnClick]];
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.ToggleButtonColorOnClick
+G2L["33"] = Instance.new("LocalScript", G2L["30"]);
+G2L["33"]["Name"] = [[ToggleButtonColorOnClick]];
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.UICorner
+G2L["34"] = Instance.new("UICorner", G2L["30"]);
+
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.UICorner
+G2L["35"] = Instance.new("UICorner", G2L["2c"]);
+
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc
+G2L["36"] = Instance.new("Frame", G2L["20"]);
+G2L["36"]["BorderSizePixel"] = 0;
+G2L["36"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["36"]["Size"] = UDim2.new(0.15859, 0, 0.16585, 0);
+G2L["36"]["Position"] = UDim2.new(-0.00088, 0, 0, 0);
+G2L["36"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["36"]["Name"] = [[fnc]];
+G2L["36"]["BackgroundTransparency"] = 0.65;
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.UIStroke
+G2L["37"] = Instance.new("UIStroke", G2L["36"]);
+G2L["37"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.UIStroke.UIGradient
+G2L["38"] = Instance.new("UIGradient", G2L["37"]);
+G2L["38"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.270, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.474, Color3.fromRGB(0, 255, 226)),ColorSequenceKeypoint.new(0.671, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.UIStroke.UIGradient.LocalScript
+G2L["39"] = Instance.new("LocalScript", G2L["38"]);
+
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton
+G2L["3a"] = Instance.new("TextButton", G2L["36"]);
+G2L["3a"]["TextWrapped"] = true;
+G2L["3a"]["BorderSizePixel"] = 0;
+G2L["3a"]["TextSize"] = 14;
+G2L["3a"]["TextColor3"] = Color3.fromRGB(0, 255, 255);
+G2L["3a"]["TextScaled"] = true;
+G2L["3a"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3a"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["3a"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["3a"]["BackgroundTransparency"] = 0.85;
+G2L["3a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3a"]["Text"] = [[2]];
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.UIPadding
+G2L["3b"] = Instance.new("UIPadding", G2L["3a"]);
+G2L["3b"]["PaddingTop"] = UDim.new(0, 30);
+G2L["3b"]["PaddingBottom"] = UDim.new(0, 30);
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.ToggleAnimationOnClick
+G2L["3c"] = Instance.new("LocalScript", G2L["3a"]);
+G2L["3c"]["Name"] = [[ToggleAnimationOnClick]];
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.ToggleButtonColorOnClick
+G2L["3d"] = Instance.new("LocalScript", G2L["3a"]);
+G2L["3d"]["Name"] = [[ToggleButtonColorOnClick]];
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.UICorner
+G2L["3e"] = Instance.new("UICorner", G2L["3a"]);
+
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.UICorner
+G2L["3f"] = Instance.new("UICorner", G2L["36"]);
+
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc
+G2L["40"] = Instance.new("Frame", G2L["20"]);
+G2L["40"]["BorderSizePixel"] = 0;
+G2L["40"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["40"]["Size"] = UDim2.new(0.15859, 0, 0.16585, 0);
+G2L["40"]["Position"] = UDim2.new(-0.00088, 0, 0, 0);
+G2L["40"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["40"]["Name"] = [[fnc]];
+G2L["40"]["BackgroundTransparency"] = 0.65;
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.UIStroke
+G2L["41"] = Instance.new("UIStroke", G2L["40"]);
+G2L["41"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.UIStroke.UIGradient
+G2L["42"] = Instance.new("UIGradient", G2L["41"]);
+G2L["42"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.270, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.474, Color3.fromRGB(0, 255, 226)),ColorSequenceKeypoint.new(0.671, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.UIStroke.UIGradient.LocalScript
+G2L["43"] = Instance.new("LocalScript", G2L["42"]);
+
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton
+G2L["44"] = Instance.new("TextButton", G2L["40"]);
+G2L["44"]["TextWrapped"] = true;
+G2L["44"]["BorderSizePixel"] = 0;
+G2L["44"]["TextSize"] = 14;
+G2L["44"]["TextColor3"] = Color3.fromRGB(0, 255, 255);
+G2L["44"]["TextScaled"] = true;
+G2L["44"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["44"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["44"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["44"]["BackgroundTransparency"] = 0.85;
+G2L["44"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["44"]["Text"] = [[3]];
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.UIPadding
+G2L["45"] = Instance.new("UIPadding", G2L["44"]);
+G2L["45"]["PaddingTop"] = UDim.new(0, 30);
+G2L["45"]["PaddingBottom"] = UDim.new(0, 30);
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.ToggleAnimationOnClick
+G2L["46"] = Instance.new("LocalScript", G2L["44"]);
+G2L["46"]["Name"] = [[ToggleAnimationOnClick]];
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.ToggleButtonColorOnClick
+G2L["47"] = Instance.new("LocalScript", G2L["44"]);
+G2L["47"]["Name"] = [[ToggleButtonColorOnClick]];
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.UICorner
+G2L["48"] = Instance.new("UICorner", G2L["44"]);
+
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.UICorner
+G2L["49"] = Instance.new("UICorner", G2L["40"]);
+
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc
+G2L["4a"] = Instance.new("Frame", G2L["20"]);
+G2L["4a"]["BorderSizePixel"] = 0;
+G2L["4a"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4a"]["Size"] = UDim2.new(0.15859, 0, 0.16585, 0);
+G2L["4a"]["Position"] = UDim2.new(-0.00088, 0, 0, 0);
+G2L["4a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4a"]["Name"] = [[fnc]];
+G2L["4a"]["BackgroundTransparency"] = 0.65;
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.UIStroke
+G2L["4b"] = Instance.new("UIStroke", G2L["4a"]);
+G2L["4b"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.UIStroke.UIGradient
+G2L["4c"] = Instance.new("UIGradient", G2L["4b"]);
+G2L["4c"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.270, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.474, Color3.fromRGB(0, 255, 226)),ColorSequenceKeypoint.new(0.671, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.UIStroke.UIGradient.LocalScript
+G2L["4d"] = Instance.new("LocalScript", G2L["4c"]);
+
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton
+G2L["4e"] = Instance.new("TextButton", G2L["4a"]);
+G2L["4e"]["TextWrapped"] = true;
+G2L["4e"]["BorderSizePixel"] = 0;
+G2L["4e"]["TextSize"] = 14;
+G2L["4e"]["TextColor3"] = Color3.fromRGB(0, 255, 255);
+G2L["4e"]["TextScaled"] = true;
+G2L["4e"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["4e"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["4e"]["BackgroundTransparency"] = 0.85;
+G2L["4e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4e"]["Text"] = [[4]];
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.UIPadding
+G2L["4f"] = Instance.new("UIPadding", G2L["4e"]);
+G2L["4f"]["PaddingTop"] = UDim.new(0, 30);
+G2L["4f"]["PaddingBottom"] = UDim.new(0, 30);
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.ToggleAnimationOnClick
+G2L["50"] = Instance.new("LocalScript", G2L["4e"]);
+G2L["50"]["Name"] = [[ToggleAnimationOnClick]];
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.ToggleButtonColorOnClick
+G2L["51"] = Instance.new("LocalScript", G2L["4e"]);
+G2L["51"]["Name"] = [[ToggleButtonColorOnClick]];
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.UICorner
+G2L["52"] = Instance.new("UICorner", G2L["4e"]);
+
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.UICorner
+G2L["53"] = Instance.new("UICorner", G2L["4a"]);
+
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc
+G2L["54"] = Instance.new("Frame", G2L["20"]);
+G2L["54"]["BorderSizePixel"] = 0;
+G2L["54"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["54"]["Size"] = UDim2.new(0.15859, 0, 0.16585, 0);
+G2L["54"]["Position"] = UDim2.new(-0.00088, 0, 0, 0);
+G2L["54"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["54"]["Name"] = [[fnc]];
+G2L["54"]["BackgroundTransparency"] = 0.65;
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.UIStroke
+G2L["55"] = Instance.new("UIStroke", G2L["54"]);
+G2L["55"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.UIStroke.UIGradient
+G2L["56"] = Instance.new("UIGradient", G2L["55"]);
+G2L["56"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.270, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.474, Color3.fromRGB(0, 255, 226)),ColorSequenceKeypoint.new(0.671, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.UIStroke.UIGradient.LocalScript
+G2L["57"] = Instance.new("LocalScript", G2L["56"]);
+
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton
+G2L["58"] = Instance.new("TextButton", G2L["54"]);
+G2L["58"]["TextWrapped"] = true;
+G2L["58"]["BorderSizePixel"] = 0;
+G2L["58"]["TextSize"] = 14;
+G2L["58"]["TextColor3"] = Color3.fromRGB(0, 255, 255);
+G2L["58"]["TextScaled"] = true;
+G2L["58"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["58"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["58"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["58"]["BackgroundTransparency"] = 0.85;
+G2L["58"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["58"]["Text"] = [[WALL 1]];
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.UIPadding
+G2L["59"] = Instance.new("UIPadding", G2L["58"]);
+G2L["59"]["PaddingTop"] = UDim.new(0, 30);
+G2L["59"]["PaddingBottom"] = UDim.new(0, 30);
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.ToggleAnimationOnClick
+G2L["5a"] = Instance.new("LocalScript", G2L["58"]);
+G2L["5a"]["Name"] = [[ToggleAnimationOnClick]];
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.ToggleButtonColorOnClick
+G2L["5b"] = Instance.new("LocalScript", G2L["58"]);
+G2L["5b"]["Name"] = [[ToggleButtonColorOnClick]];
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.UICorner
+G2L["5c"] = Instance.new("UICorner", G2L["58"]);
+
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.UICorner
+G2L["5d"] = Instance.new("UICorner", G2L["54"]);
+
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc
+G2L["5e"] = Instance.new("Frame", G2L["20"]);
+G2L["5e"]["BorderSizePixel"] = 0;
+G2L["5e"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5e"]["Size"] = UDim2.new(0.15859, 0, 0.16585, 0);
+G2L["5e"]["Position"] = UDim2.new(-0.00088, 0, 0, 0);
+G2L["5e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5e"]["Name"] = [[fnc]];
+G2L["5e"]["BackgroundTransparency"] = 0.65;
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.UIStroke
+G2L["5f"] = Instance.new("UIStroke", G2L["5e"]);
+G2L["5f"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.UIStroke.UIGradient
+G2L["60"] = Instance.new("UIGradient", G2L["5f"]);
+G2L["60"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.270, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.474, Color3.fromRGB(0, 255, 226)),ColorSequenceKeypoint.new(0.671, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))};
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.UIStroke.UIGradient.LocalScript
+G2L["61"] = Instance.new("LocalScript", G2L["60"]);
+
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton
+G2L["62"] = Instance.new("TextButton", G2L["5e"]);
+G2L["62"]["TextWrapped"] = true;
+G2L["62"]["BorderSizePixel"] = 0;
+G2L["62"]["TextSize"] = 14;
+G2L["62"]["TextColor3"] = Color3.fromRGB(0, 255, 255);
+G2L["62"]["TextScaled"] = true;
+G2L["62"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["62"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["62"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["62"]["BackgroundTransparency"] = 0.85;
+G2L["62"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["62"]["Text"] = [[WALL 2]];
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.UIPadding
+G2L["63"] = Instance.new("UIPadding", G2L["62"]);
+G2L["63"]["PaddingTop"] = UDim.new(0, 30);
+G2L["63"]["PaddingBottom"] = UDim.new(0, 30);
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.ToggleAnimationOnClick
+G2L["64"] = Instance.new("LocalScript", G2L["62"]);
+G2L["64"]["Name"] = [[ToggleAnimationOnClick]];
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.ToggleButtonColorOnClick
+G2L["65"] = Instance.new("LocalScript", G2L["62"]);
+G2L["65"]["Name"] = [[ToggleButtonColorOnClick]];
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.UICorner
+G2L["66"] = Instance.new("UICorner", G2L["62"]);
+
+
+
+-- StarterGui.supor.al.tab.f.Frame.fnc.UICorner
+G2L["67"] = Instance.new("UICorner", G2L["5e"]);
+
+
+
+-- StarterGui.supor.PrintNumbers
+G2L["68"] = Instance.new("LocalScript", G2L["1"]);
+G2L["68"]["Enabled"] = false;
+G2L["68"]["Name"] = [[PrintNumbers]];
+G2L["68"]["Disabled"] = true;
+
+
+-- StarterGui.supor.al.UIStroke.UIGradient.LocalScript
+local function C_6()
+local script = G2L["6"];
+	while true do wait()
+		script.Parent.Rotation += 4
+	end
+end;
+task.spawn(C_6);
+-- StarterGui.supor.al.tgt.UIStroke.UIGradient.LocalScript
+local function C_b()
+local script = G2L["b"];
+	while true do wait()
+		script.Parent.Rotation += 4
+	end
+end;
+task.spawn(C_b);
+-- StarterGui.supor.al.tgt.TextButton.LocalScript
+local function C_f()
+local script = G2L["f"];
+	local ddf = script.Parent
+	local asd = script.Parent.Parent.Parent.Parent.al
+	local btn = script.Parent.Parent.Parent.tgt
+	local tot = true
+	local bv = true
+	
+	
+	
+	ddf.MouseButton1Click:Connect(function()
+		if tot == true then
+			
+			
+			if bv == true then
+				bv = false
+				asd:TweenPosition(UDim2.new(0.337, 0 , -0.49, 0), "In", "Sine", 0.5, true)
+				for i = 1, 18 do
+					wait()
+					btn.Rotation = btn.Rotation + 10
+				end
+				--wait(1.2)
+				
+				tot = false
+				bv = true
+			end
+			
+			
+		else
+			if bv == true then
+				bv = false
+				asd:TweenPosition(UDim2.new(0.337, 0 , 0, 0), "In", "Sine", 0.5, true)
+				for i = 1, 18 do
+					wait()
+					btn.Rotation = btn.Rotation + 10
+				end
+				--wait(1.2)
+	
+	
+				bv = true
+				tot = true
+			end
+			
+			
+		end
+	end)
+	
+	
+	
+	
+end;
+task.spawn(C_f);
+-- StarterGui.supor.al.tgt.TextButton.UIStroke.UIGradient.LocalScript
+local function C_12()
+local script = G2L["12"];
+	while true do wait()
+		script.Parent.Rotation += 4
+	end
+end;
+task.spawn(C_12);
+-- StarterGui.supor.al.al.UIStroke.UIGradient.LocalScript
+local function C_17()
+local script = G2L["17"];
+	while true do wait()
+		script.Parent.Rotation += 4
+	end
+end;
+task.spawn(C_17);
+-- StarterGui.supor.al.tab.UIStroke.UIGradient.LocalScript
+local function C_1e()
+local script = G2L["1e"];
+	while true do wait()
+		script.Parent.Rotation += 4
+	end
+end;
+task.spawn(C_1e);
+-- StarterGui.supor.al.tab.f.Frame.speed.UIStroke.UIGradient.LocalScript
+local function C_26()
+local script = G2L["26"];
+	while true do wait()
+		script.Parent.Rotation += 4
+	end
+end;
+task.spawn(C_26);
+-- StarterGui.supor.al.tab.f.Frame.speed.TextButton.ButtonStateScript
+local function C_2a()
+local script = G2L["2a"];
+	--[[
+	local button = script.Parent
+	local state = 1
+	
+	local function updateButtonText()
+	    button.Text = "SPEED: " .. state
+	end
+	
+	button.MouseButton1Click:Connect(function()
+	    state = state + 1
+	    if state > 4 then
+	        state = 1
+	    end
+	    updateButtonText()
+	end)
+	
+	updateButtonText()
+	
+	]]
+	
+	local button = script.Parent
+	local state = 1
+	
+	local function updateButtonText()
+		button.Text = "SPEED: " .. state
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		state = state + 1
+		if state > 20 then
+			state = 1
+		end
+		updateButtonText()
+	end)
+	
+	updateButtonText()
+	
+	-- Function to adjust animation speed
+	local function adjustAnimationSpeed(animationTrack)
+		animationTrack:AdjustSpeed(state)
+	end
+	
+	-- Connect to any new animations being played
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoid = character:WaitForChild("Humanoid")
+	
+	
+	humanoid.AnimationPlayed:Connect(adjustAnimationSpeed)
+	
+end;
+task.spawn(C_2a);
+-- StarterGui.supor.al.tab.f.Frame.fnc.UIStroke.UIGradient.LocalScript
+local function C_2f()
+local script = G2L["2f"];
+	while true do wait()
+		script.Parent.Rotation += 4
+	end
+end;
+task.spawn(C_2f);
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.ToggleAnimationOnClick
+local function C_32()
+local script = G2L["32"];
+	local button = script.Parent
+	local animationId = "rbxassetid://105978951303860"
+	local player = game.Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoid = character:WaitForChild("Humanoid")
+	local animation = Instance.new("Animation")
+	animation.AnimationId = animationId
+	local animationTrack = humanoid:LoadAnimation(animation)
+	local isPlaying = false
+	
+	button.MouseButton1Click:Connect(function()
+	    if isPlaying then
+	        animationTrack:Stop()
+	    else
+			animationTrack:Play()
+			
+	    end
+	    isPlaying = not isPlaying
+	end)
+	
+	
+end;
+task.spawn(C_32);
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.ToggleButtonColorOnClick
+local function C_33()
+local script = G2L["33"];
+	local button = script.Parent
+	local isWhite = false
+	
+	button.MouseButton1Click:Connect(function()
+		if isWhite then
+			button.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	         -- White
+	    else
+	        button.BackgroundColor3 = Color3.fromRGB(255, 255, 255) -- Black or original color
+	    end
+	    isWhite = not isWhite
+	end)
+	
+	
+end;
+task.spawn(C_33);
+-- StarterGui.supor.al.tab.f.Frame.fnc.UIStroke.UIGradient.LocalScript
+local function C_39()
+local script = G2L["39"];
+	while true do wait()
+		script.Parent.Rotation += 4
+	end
+end;
+task.spawn(C_39);
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.ToggleAnimationOnClick
+local function C_3c()
+local script = G2L["3c"];
+	local button = script.Parent
+	local animationId = "rbxassetid://70554424268008"
+	local player = game.Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoid = character:WaitForChild("Humanoid")
+	local animation = Instance.new("Animation")
+	animation.AnimationId = animationId
+	local animationTrack = humanoid:LoadAnimation(animation)
+	local isPlaying = false
+	
+	button.MouseButton1Click:Connect(function()
+	    if isPlaying then
+	        animationTrack:Stop()
+	    else
+	        animationTrack:Play()
+	    end
+	    isPlaying = not isPlaying
+	end)
+	
+	
+end;
+task.spawn(C_3c);
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.ToggleButtonColorOnClick
+local function C_3d()
+local script = G2L["3d"];
+	local button = script.Parent
+	local isWhite = false
+	
+	button.MouseButton1Click:Connect(function()
+		if isWhite then
+			button.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	         -- White
+	    else
+	        button.BackgroundColor3 = Color3.fromRGB(255, 255, 255) -- Black or original color
+	    end
+	    isWhite = not isWhite
+	end)
+	
+	
+end;
+task.spawn(C_3d);
+-- StarterGui.supor.al.tab.f.Frame.fnc.UIStroke.UIGradient.LocalScript
+local function C_43()
+local script = G2L["43"];
+	while true do wait()
+		script.Parent.Rotation += 4
+	end
+end;
+task.spawn(C_43);
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.ToggleAnimationOnClick
+local function C_46()
+local script = G2L["46"];
+	local button = script.Parent
+	local animationId = "rbxassetid://79400439416109"
+	local player = game.Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoid = character:WaitForChild("Humanoid")
+	local animation = Instance.new("Animation")
+	animation.AnimationId = animationId
+	local animationTrack = humanoid:LoadAnimation(animation)
+	local isPlaying = false
+	
+	button.MouseButton1Click:Connect(function()
+	    if isPlaying then
+	        animationTrack:Stop()
+	    else
+	        animationTrack:Play()
+	    end
+	    isPlaying = not isPlaying
+	end)
+	
+	
+end;
+task.spawn(C_46);
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.ToggleButtonColorOnClick
+local function C_47()
+local script = G2L["47"];
+	local button = script.Parent
+	local isWhite = false
+	
+	button.MouseButton1Click:Connect(function()
+		if isWhite then
+			button.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	         -- White
+	    else
+	        button.BackgroundColor3 = Color3.fromRGB(255, 255, 255) -- Black or original color
+	    end
+	    isWhite = not isWhite
+	end)
+	
+	
+end;
+task.spawn(C_47);
+-- StarterGui.supor.al.tab.f.Frame.fnc.UIStroke.UIGradient.LocalScript
+local function C_4d()
+local script = G2L["4d"];
+	while true do wait()
+		script.Parent.Rotation += 4
+	end
+end;
+task.spawn(C_4d);
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.ToggleAnimationOnClick
+local function C_50()
+local script = G2L["50"];
+	local button = script.Parent
+	local animationId = "rbxassetid://125737099892101"
+	local player = game.Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoid = character:WaitForChild("Humanoid")
+	local animation = Instance.new("Animation")
+	animation.AnimationId = animationId
+	local animationTrack = humanoid:LoadAnimation(animation)
+	local isPlaying = false
+	
+	button.MouseButton1Click:Connect(function()
+	    if isPlaying then
+	        animationTrack:Stop()
+	    else
+	        animationTrack:Play()
+	    end
+	    isPlaying = not isPlaying
+	end)
+	
+	
+end;
+task.spawn(C_50);
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.ToggleButtonColorOnClick
+local function C_51()
+local script = G2L["51"];
+	local button = script.Parent
+	local isWhite = false
+	
+	button.MouseButton1Click:Connect(function()
+		if isWhite then
+			button.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	         -- White
+	    else
+	        button.BackgroundColor3 = Color3.fromRGB(255, 255, 255) -- Black or original color
+	    end
+	    isWhite = not isWhite
+	end)
+	
+	
+end;
+task.spawn(C_51);
+-- StarterGui.supor.al.tab.f.Frame.fnc.UIStroke.UIGradient.LocalScript
+local function C_57()
+local script = G2L["57"];
+	while true do wait()
+		script.Parent.Rotation += 4
+	end
+end;
+task.spawn(C_57);
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.ToggleAnimationOnClick
+local function C_5a()
+local script = G2L["5a"];
+	local button = script.Parent
+	local animationId = "rbxassetid://114947481889530"
+	local player = game.Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoid = character:WaitForChild("Humanoid")
+	local animation = Instance.new("Animation")
+	animation.AnimationId = animationId
+	local animationTrack = humanoid:LoadAnimation(animation)
+	local isPlaying = false
+	
+	button.MouseButton1Click:Connect(function()
+	    if isPlaying then
+	        animationTrack:Stop()
+	    else
+	        animationTrack:Play()
+	    end
+	    isPlaying = not isPlaying
+	end)
+	
+	
+end;
+task.spawn(C_5a);
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.ToggleButtonColorOnClick
+local function C_5b()
+local script = G2L["5b"];
+	local button = script.Parent
+	local isWhite = false
+	
+	button.MouseButton1Click:Connect(function()
+		if isWhite then
+			button.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	         -- White
+	    else
+	        button.BackgroundColor3 = Color3.fromRGB(255, 255, 255) -- Black or original color
+	    end
+	    isWhite = not isWhite
+	end)
+	
+	
+end;
+task.spawn(C_5b);
+-- StarterGui.supor.al.tab.f.Frame.fnc.UIStroke.UIGradient.LocalScript
+local function C_61()
+local script = G2L["61"];
+	while true do wait()
+		script.Parent.Rotation += 4
+	end
+end;
+task.spawn(C_61);
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.ToggleAnimationOnClick
+local function C_64()
+local script = G2L["64"];
+	local button = script.Parent
+	local animationId = "rbxassetid://122403965201181"
+	local player = game.Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoid = character:WaitForChild("Humanoid")
+	local animation = Instance.new("Animation")
+	animation.AnimationId = animationId
+	local animationTrack = humanoid:LoadAnimation(animation)
+	local isPlaying = false
+	
+	button.MouseButton1Click:Connect(function()
+	    if isPlaying then
+	        animationTrack:Stop()
+	    else
+	        animationTrack:Play()
+	    end
+	    isPlaying = not isPlaying
+	end)
+	
+	
+end;
+task.spawn(C_64);
+-- StarterGui.supor.al.tab.f.Frame.fnc.TextButton.ToggleButtonColorOnClick
+local function C_65()
+local script = G2L["65"];
+	local button = script.Parent
+	local isWhite = false
+	
+	button.MouseButton1Click:Connect(function()
+		if isWhite then
+			button.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	         -- White
+	    else
+	        button.BackgroundColor3 = Color3.fromRGB(255, 255, 255) -- Black or original color
+	    end
+	    isWhite = not isWhite
+	end)
+	
+	
+end;
+task.spawn(C_65);
+
+return G2L["1"], require;
