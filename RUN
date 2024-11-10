@@ -1,5 +1,5 @@
 
--- Instances: 114 | Scripts: 30 | Modules: 0 | Tags: 0
+-- Instances: 115 | Scripts: 30 | Modules: 0 | Tags: 0
 local G2L = {};
 
 -- StarterGui.supor
@@ -215,6 +215,8 @@ G2L["1e"] = Instance.new("LocalScript", G2L["1d"]);
 G2L["1f"] = Instance.new("ScrollingFrame", G2L["1a"]);
 G2L["1f"]["Active"] = true;
 G2L["1f"]["BorderSizePixel"] = 0;
+G2L["1f"]["CanvasSize"] = UDim2.new(0, 0, 3, 0);
+G2L["1f"]["CanvasPosition"] = Vector2.new(0, 331.71796);
 G2L["1f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["1f"]["Name"] = [[f]];
 G2L["1f"]["Size"] = UDim2.new(1, 0, 1, 0);
@@ -745,7 +747,7 @@ G2L["6c"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["6c"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["6c"]["BackgroundTransparency"] = 0.85;
 G2L["6c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["6c"]["Text"] = [[WALL 2]];
+G2L["6c"]["Text"] = [[5]];
 
 
 -- StarterGui.supor.al.tab.f.Frame.bo.TextButton.UIPadding
@@ -779,6 +781,14 @@ G2L["72"] = Instance.new("LocalScript", G2L["1"]);
 G2L["72"]["Enabled"] = false;
 G2L["72"]["Name"] = [[PrintNumbers]];
 G2L["72"]["Disabled"] = true;
+
+
+-- StarterGui.supor.Part
+G2L["73"] = Instance.new("Part", G2L["1"]);
+G2L["73"]["BottomSurface"] = Enum.SurfaceType.Smooth;
+G2L["73"]["TopSurface"] = Enum.SurfaceType.Smooth;
+G2L["73"]["Size"] = Vector3.new(4, 1, 2);
+-- [ERROR] cannot convert CFrame, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
 
 
 -- StarterGui.supor.al.UIStroke.UIGradient.LocalScript
